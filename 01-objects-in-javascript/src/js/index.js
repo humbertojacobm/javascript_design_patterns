@@ -1,1 +1,1 @@
-import './01-create-object'
+import './02-inheritance'
