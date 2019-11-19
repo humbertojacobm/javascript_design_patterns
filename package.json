@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack index.js bundle.js",
-    "build:local": "webpack"
+    "build:local": "webpack",
+    "build:template-module": "webpack-dev-server --config ./00-template-module/webpack.config.js"
   },
   "repository": {
     "type": "git",

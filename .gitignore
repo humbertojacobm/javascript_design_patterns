@@ -4,3 +4,4 @@ bundle.js
 dist
 .vscode
 package-lock.json
+00-template-module/dist
