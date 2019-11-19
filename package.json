@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.js bundle.js",
+    "build:local": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/humbertojacobm/javascript_design_patterns/issues"
   },
-  "homepage": "https://github.com/humbertojacobm/javascript_design_patterns#readme"
+  "homepage": "https://github.com/humbertojacobm/javascript_design_patterns#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "webpack": "4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "lodash": "^4.17.15"
+  }
 }
