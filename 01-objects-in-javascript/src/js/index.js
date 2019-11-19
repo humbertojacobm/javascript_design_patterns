@@ -1,1 +1,1 @@
-import './01-first-dependency'
+import './01-create-object'
