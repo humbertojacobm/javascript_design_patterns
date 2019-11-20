@@ -6,3 +6,4 @@ dist
 package-lock.json
 00-template-module/dist
 01-objects-in-javascript/dist
+02-creational-design-pattern/dist

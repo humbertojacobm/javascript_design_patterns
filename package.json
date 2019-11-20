@@ -8,7 +8,8 @@
     "build": "webpack index.js bundle.js",
     "build:local": "webpack",
     "build:template-module": "webpack-dev-server --config ./00-template-module/webpack.config.js",
-    "build:objects": "webpack-dev-server --config ./01-objects-in-javascript/webpack.config.js"
+    "build:objects": "webpack-dev-server --config ./01-objects-in-javascript/webpack.config.js",
+    "build:creational": "webpack-dev-server --config ./02-creational-design-pattern/webpack.config.js"
   },
   "repository": {
     "type": "git",
