@@ -1,1 +1,1 @@
-import './01-first-dependency'
+import './03-constructor-node/main'
