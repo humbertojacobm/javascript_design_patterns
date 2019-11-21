@@ -1,1 +1,1 @@
-import './04-module-pattern/main'
+import './05-factory-pattern/main2'
