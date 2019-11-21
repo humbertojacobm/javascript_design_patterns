@@ -1,1 +1,1 @@
-import './03-constructor-node/main'
+import './04-module-pattern/main'
