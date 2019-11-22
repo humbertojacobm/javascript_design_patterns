@@ -1,1 +1,1 @@
-import './05-factory-pattern/main2'
+import './06-singleton/singleton';
