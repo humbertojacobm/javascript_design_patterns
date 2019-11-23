@@ -1,1 +1,1 @@
-import './01-first-dependency'
+import './01-decorator/02-sub-objecting'
