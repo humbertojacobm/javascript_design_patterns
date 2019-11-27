@@ -1,4 +1,4 @@
-console.log("02 more complex decorator");
+console.log("02 decorator -> sub objecting");
 
 var Task = function (name) {
     this.name = name;
