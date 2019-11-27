@@ -1,1 +1,1 @@
-import './03-flyweight/01-first'
+import './03-flyweight/02-solution'
