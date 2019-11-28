@@ -1,4 +1,4 @@
-console.log('02 observer -> main');
+console.log('02 observer -> main -> es6 -> but it is failling');
 import Task from './01-task';
 
 class notificationService {
@@ -57,6 +57,7 @@ class ObserverList{
            if (this.observerList[i] === obj) {
                return i;
            }
+           i++;
         }
         return -1;
     }    
@@ -98,6 +99,6 @@ Task1.addObserver(audit.update);
 
 Task1.save();
 
-Task1.removeObserver(audit);
+Task1.removeObserver(audit.update);
 
 Task1.save();
