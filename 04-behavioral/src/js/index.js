@@ -1,1 +1,1 @@
-import './02-mediator/02-main'
+import './03-command/01-task'
