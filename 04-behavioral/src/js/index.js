@@ -1,1 +1,1 @@
-import './01-observer/02-main'
+import './02-mediator/02-main'
